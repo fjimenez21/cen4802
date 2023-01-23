@@ -9,12 +9,29 @@
 import java.util.Scanner;
 
 public class FibonnacciMain {
-    public static int nthterm(int n){
+
+/** 
+ *
+ * Nthterm
+ *
+ * @param n  the n
+ * @return int
+ */
+    public static int nthterm(int n){ 
+
         if(n==0)return 0;
         if(n==1 || n==2) return 1;
         return nthterm(n-1)+nthterm(n-2);
     }
-    public static void main(String[] args) {
+
+/** 
+ *
+ * Main
+ *
+ * @param args  the args
+ */
+    public static void main(String[] args) { 
+
         Scanner reader = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int n = reader.nextInt();
