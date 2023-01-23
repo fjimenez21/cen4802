@@ -1,10 +1,5 @@
 /**
-* Fibonacci Sequence. 
-* The following document defines the purpose of the project
-* The program will show the user the Fibonacci Sequence of a number determined by the user
-* Please contact development team for support
-* @author Fernando Jimenez
-*
+Fernando Jimenez CEN4802
 */
 import java.util.Scanner;
 
