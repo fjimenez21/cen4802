@@ -1,3 +1,5 @@
+//Fernando Jimenez CEN4802
+//Assignment 2
 import java.util.Scanner;
 
 public class FibonnacciMain {
