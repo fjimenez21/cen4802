@@ -1,5 +1,11 @@
-//Fernando Jimenez CEN4802
-//Assignment 2
+/**
+* Fibonacci Sequence. 
+* The following document defines the purpose of the project
+* The program will show the user the Fibonacci Sequence of a number determined by the user
+* Please contact development team for support
+* @author Fernando Jimenez
+*
+*/
 import java.util.Scanner;
 
 public class FibonnacciMain {
@@ -10,8 +16,8 @@ public class FibonnacciMain {
     }
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        int n = reader.nextInt();
-        System.out.println("The "+n+"th term of the sequence is "+nthterm(n));
+        System.out.println("Enter a number: "); //Ask user for input
+        int n = reader.nextInt(); 
+        System.out.println("The "+n+"th term of the sequence is "+nthterm(n)); //Takes value of N determined by the user to run the nthterm proccess-
     }
 }
